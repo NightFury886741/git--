@@ -1,10 +1,10 @@
-x=int(input("please enter an integer"))
+x=int(input("请输入一个整数："))
 if x<0:
  x=0
- print('Negative changed to zero')
+ print("负数变为0")
 elif x==0:
- print('Zero')
+ print("Zero")
 elif x==1:
- print('Single')
+ print("Single")
 else:
- print('More')
+ print("More")
