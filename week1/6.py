@@ -1,0 +1,8 @@
+a=input("边a：")
+b=input("边b：")
+c=input("边c：")
+a=int(a)
+b=int(b)
+c=int(c)
+d=(a+b>c)and(a+c>b)and(b+c>a)
+print("能否构成三角形:",d)
