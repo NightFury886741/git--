@@ -1,4 +1,4 @@
-price=input("多少钱：")
+price=input("单价：")
 price=int(price)
 count=input("数量：")
 count=int(count)
